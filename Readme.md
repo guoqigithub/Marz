@@ -1,4 +1,4 @@
-1.First install node.js
+## First install node.js
 # Download and install NVM
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
@@ -15,7 +15,7 @@ node -v
 npm -v
 
 
-2.install Marz
+## install Marz
 # Clone the Marz repository:
 git clone https://github.com/Samreay/Marz.git
 
@@ -26,9 +26,9 @@ cd Marz
 npm install
 
 
-3.To run Marz:
+## To run Marz:
 ./marz.sh /path/to/the/spec
 
 
-4.To visualize the spectrum, python 2.* dependent and you need to install SimpleHTTPServer
+## To visualize the spectrum, python 2.* dependent and you need to install SimpleHTTPServer
 python2 -m SimpleHTTPServer **** # for visual inspection
